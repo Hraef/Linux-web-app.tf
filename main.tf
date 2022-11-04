@@ -23,8 +23,5 @@ resource "azurerm_linux_web_app" "linux-app" {
 
   site_config {
     always_on = true
-    application_stack {
-      docker_image = hibryd/nextwebapp
-    }
   }
 }
